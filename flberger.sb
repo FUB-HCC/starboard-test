@@ -40,7 +40,7 @@ var xyValues = [
 ];
 
 new Chart(canvas.getContext("2d"), {
-  type: "scatter",
+  type: "line",
   data: {
     datasets: [{
       pointRadius: 4,
